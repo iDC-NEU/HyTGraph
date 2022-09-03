@@ -33,6 +33,6 @@ This repo contains all the source code to build HyTGraph.
 
 ## 3. Contact ##
 
-For the technical questions, please contact: Xin Ai (aixin0@stumail.neu.edu.cn)
+For the technical questions, please contact: **Xin Ai** (aixin0@stumail.neu.edu.cn)
 
-For the questions about the paper, please contact: Qiange Wang (wangqiange@stumail.neu.edu.cn)
+For the questions about the paper, please contact: **Qiange Wang** (wangqiange@stumail.neu.edu.cn)
