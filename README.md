@@ -1,7 +1,7 @@
 # HyTGraph: GPU-Accelerated Graph Processing with Hybrid Transfer Management #
 
 ## 1. Introduction ##
-This repo contains all the source code to build SEP-Graph++.
+This repo contains all the source code to build HyTGraph.
 
 ## 2. Installation ##
 
