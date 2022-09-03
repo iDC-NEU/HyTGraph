@@ -25,7 +25,7 @@ This repo contains all the source code to build SEP-Graph++.
     
 2. Build
 
-  - cd SEP-GraphPP
+  - cd HyTGraph
   - mkdir build && cd build
   - cmake .. 
   - make -j 8
