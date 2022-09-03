@@ -1,5 +1,6 @@
 # HyTGraph: GPU-Accelerated Graph Processing with Hybrid Transfer Management #
 
+[Link to the paper](https://arxiv.org/abs/2208.14935)
 ## 1. Introduction ##
 This repo contains all the source code to build HyTGraph.
 
@@ -21,7 +22,7 @@ This repo contains all the source code to build HyTGraph.
 ### 2.3 Setup ###
 1. Download
 
-    git clone --recursive https://github.com/AiX-im/HyTGraph.git
+    git clone --recursive https://github.com/iDC-NEU/HyTGraph.git
     
 2. Build
 
@@ -32,6 +33,6 @@ This repo contains all the source code to build HyTGraph.
 
 ## 3. Contact ##
 
-For the technical questions, please contact: aixin0@stumail.neu.edu.cn
+For the technical questions, please contact: Xin Ai (aixin0@stumail.neu.edu.cn)
 
-For the questions about the paper, please contact: wangqiange@stumail.neu.edu.cn
+For the questions about the paper, please contact: Qiange Wang (wangqiange@stumail.neu.edu.cn)
