@@ -46,7 +46,6 @@ The weight is optional, and the system will replace it with src% 64. Vertex id a
 ```
 ./hybrid_cc example.el -format market_big
         -format | input file format
-        -r | BFS root (unused when i > 1)
         
 ./hybrid_sssp example.el -format market_big -source 0 -weight_num 1
         -format | input file format
