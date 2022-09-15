@@ -31,7 +31,31 @@ This repo contains all the source code to build HyTGraph.
   - cmake .. 
   - make -j 8
 
-## 3. Contact ##
+## 3. Dataset ##
+We use a custom format for the datasets.
+
+```
+source_id  dst_id  edge_weight
+```
+
+The weight is optional, and the system will replace it with src% 64. Vertex id are separated by \t
+
+
+## 4. How to Run ##
+
+```
+./hybrid_cc example.el -format market_big
+        -format | input file format
+        -r | BFS root (unused when i > 1)
+        
+./hybrid_sssp example.el -format market_big -source 0 -weight_num 1
+        -format | input file format
+        -source | SSSP root (unused when i > 1)
+        -weight_num | 0:provide weight 1:weight = src % 64
+```
+
+More parameter descriptions are provided in the file app_skeleton.h
+## 5. Contact ##
 
 For the technical questions, please contact: **Xin Ai** (aixin0@stumail.neu.edu.cn)
 
