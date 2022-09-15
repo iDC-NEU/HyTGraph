@@ -38,7 +38,7 @@ We use a custom format for the datasets.
 source_id  dst_id  edge_weight
 ```
 
-The weight is optional, and the system will replace it with src% 64. Vertex id are separated by \t
+The weight is optional, and the system will replace it with src% 64. Vertex id are separated by \t.
 
 
 ## 4. How to Run ##
