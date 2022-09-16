@@ -52,7 +52,7 @@ Note: The number of vertices in the dataset cannot be less than the number of se
 ./hybrid_sssp -graphfile example_weight.el -format market_big -source_node 0 -weight_num 0
         -format | input file format 
         -source | SSSP root (unused when i > 1)
-        -weight_num | 0:provide weight 1:weight = src % 64
+        -weight_num | 0:read weight from given el file 1:generate edge weight with (#src % 64) and need to use a file without weight
 ```
 
 More parameter descriptions are provided in the file app_skeleton.h
