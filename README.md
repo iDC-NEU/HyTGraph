@@ -40,6 +40,7 @@ source_id  dst_id  edge_weight
 
 The weight is optional, and the system will replace it with src% 64. Vertex id are separated by \t.
 
+Note: The number of vertices in the dataset cannot be less than the number of segments, which may cause some segments to be empty. This cannot happen to real-world dataset, because it usually has hundreds of millions of vertices.
 
 ## 4. How to Run ##
 
