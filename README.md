@@ -44,10 +44,10 @@ The weight is optional, and the system will replace it with src% 64. Vertex id a
 ## 4. How to Run ##
 
 ```
-./hybrid_cc example.el -format market_big
+./hybrid_cc -graphfile example.el -format market_big
         -format | input file format
         
-./hybrid_sssp example.el -format market_big -source 0 -weight_num 1
+./hybrid_sssp -graphfile example.el -format market_big -source_node 0 -weight_num 1
         -format | input file format
         -source | SSSP root (unused when i > 1)
         -weight_num | 0:provide weight 1:weight = src % 64
