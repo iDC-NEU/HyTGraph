@@ -310,7 +310,7 @@ graph_t *ReadGraphMarket_bigdata(char *filename,idx_t weight_num)
 
     graph = CreateGraph();
 
-    int weighted = 0; // 0: no weight; 1: int weight; 2: float weight
+    int weighted = 1; // 0: no weight; 1: int weight; 2: float weight
 
     if(weight_num == 1){
         weighted = 2;
